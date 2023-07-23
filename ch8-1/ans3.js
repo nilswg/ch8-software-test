@@ -38,5 +38,5 @@ const runTest = (f) => {
   }
 }
 
-const foo = (a, b, c) => a && b && c
+const foo = (a, b, c) => a && (b || c)
 runTest(foo)
